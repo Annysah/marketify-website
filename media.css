@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        padding: 20px;
+    }
+
+    .menu .nav-links a {
+        font-size: 14px;
+    }
+
+    .landing {
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: center;
+    }
+
+    .contents h2 {
+        font-size: 22px;
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    .contents p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .contents .btn2 {
+        width: 80px;
+        font-size: 14px;
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: auto;
+    }
+
+    .about-contents h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .about-contents p {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .about-img {
+        padding: 20px;
+    }
+
+    .services {
+        height: auto;
+    }
+
+    .services-header h2 {
+        font-size: 22px;
+    }
+
+    .services-card {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .services-card .card {
+        margin-bottom: 80px;
+    }
+
+    .info-card {
+        flex: 100%;
+        max-width: 500px;
+    }
+
+    .banner {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner-contents h2{
+        font-size: 22px;
+    }
+
+    .banner-contents2 {
+        font-size: 16px;
+    }
+
+    .footer {
+        display: inline;
+        text-align: center;
+    }
+
+    .copyright {
+        margin-top: 80px;
+    }
+
+}
