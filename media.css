@@ -3,17 +3,27 @@
         flex-direction: column;
         justify-content: space-around;
         height: auto;
-        padding: 20px;
+        padding: 15px;
     }
 
     .menu .nav-links a {
         font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .menu h2 {
+        margin-right: 60px;
+        text-align: center;
     }
 
     .landing {
         flex-direction: column-reverse;
         height: auto;
         justify-content: center;
+    }
+
+    .landing-img {
+        margin-top: 40px;
     }
 
     .contents h2 {
@@ -65,7 +75,7 @@
 
     .services-card {
         flex-direction: column;
-        padding: 50px;
+        padding: 60px;
     }
 
     .services-card .card {
