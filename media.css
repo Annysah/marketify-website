@@ -36,13 +36,14 @@
 
     .contents p {
         font-size: 16px;
+        text-align: center;
     }
 
     .contents .btn2 {
         width: 80px;
         font-size: 14px;
         padding: 10px 10px;
-        margin-left: -50px;
+        margin-left: 35%;
     }
 
     .about {
@@ -146,7 +147,7 @@
     }
 
     .contents .btn2 {
-        margin-left: 100px;
+        margin-left: 40%;
         text-align: center;
     }
 
