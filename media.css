@@ -122,3 +122,66 @@
     }
 
 }
+
+@media only screen and (min-width: 768px) {
+    .menu h2 {
+        padding-left: 30px;
+    }
+
+    .landing {
+        height: auto;
+    }
+
+    .landing-img {
+        margin-top: 40px;
+    }
+
+    .contents h2 {
+        padding-top: 80px;
+        margin-left: 20px;
+    }
+
+    .contents p {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .contents .btn2 {
+        margin-left: 20px;
+    }
+
+    .services {
+        height: auto;
+    }
+
+    .services-header h2 {
+        font-size: 25px;
+    }
+
+    .services-card {
+        flex-direction: column;
+        padding: 60px;
+    }
+
+    .services-card .card {
+        margin-bottom: 80px;
+        width: 450px;
+    }
+
+    .card-contents p {
+        font-size: 20px;
+    }
+
+    .info-card {
+        flex: 100%;
+        max-width: 400px;
+    }
+
+    .banner {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
