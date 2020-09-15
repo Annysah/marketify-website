@@ -7,8 +7,9 @@
     }
 
     .menu .nav-links a {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 6px;
+        padding-left: 0;
     }
 
     .menu h2 {
@@ -80,6 +81,15 @@
 
     .services-card .card {
         margin-bottom: 80px;
+        width: 300px;
+    }
+
+    .card-contents p {
+        font-size: 16px;
+    }
+
+    .card-contents a {
+        margin: 0 50px;
     }
 
     .info-card {
