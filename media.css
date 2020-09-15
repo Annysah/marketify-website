@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .menu {
         flex-direction: column;
         justify-content: space-around;
@@ -13,7 +13,7 @@
     }
 
     .menu h2 {
-        margin-right: 60px;
+        margin-right: 120px;
         text-align: center;
     }
 
@@ -25,6 +25,7 @@
 
     .landing-img {
         margin-top: 40px;
+        margin-bottom: -70px;
     }
 
     .contents h2 {
@@ -35,14 +36,13 @@
 
     .contents p {
         font-size: 16px;
-        text-align: center;
     }
 
     .contents .btn2 {
         width: 80px;
         font-size: 14px;
         padding: 10px 10px;
-        margin: 0 auto;
+        margin-left: -50px;
     }
 
     .about {
@@ -123,7 +123,7 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .menu h2 {
         padding-left: 30px;
     }
@@ -148,7 +148,8 @@
     }
 
     .contents .btn2 {
-        margin-left: 20px;
+        margin-left: 100px;
+        text-align: center;
     }
 
     .services {
@@ -166,7 +167,7 @@
 
     .services-card .card {
         margin-bottom: 80px;
-        width: 450px;
+        width: 350px;
     }
 
     .card-contents p {
